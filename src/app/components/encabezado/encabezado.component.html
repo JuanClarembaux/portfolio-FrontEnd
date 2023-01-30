@@ -1,1 +1,23 @@
-<p>encabezado works!</p>
+<div class="container-fluid">
+  <div class="row">
+      <header>
+        <a href="https://frontendcaf.web.app"><img id="logoAp" class="img-fluid" src="../../../assets/APLogo.png" alt="Logo Argentina Programa"></a>
+          <div class="login">
+              <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!islogged">Ingreso</button>
+              <button type="button" class="btn btn-outline-light" (click)="onLogout()" *ngIf="islogged">Salir</button>
+          </div>
+          <div class="logo-social">
+              <div>
+                <a href="https://www.linkedin.com/in/claudio-a-fuentes" target="_blank"><img id="logo-social" class="img-fluid" src="../../../assets/linkedin.png" alt="Logo Linkedin"></a>
+                <a href="https://www.github.com/ludotec" target="_blank"><img id="logo-social" class="img-fluid" src="../../../assets/github.png" alt="Logo Github"></a>
+                <a href="https://www.twitter.com/claudiofuentez" target="_blank"><img id="logo-social" class="img-fluid" src="../../../assets/twitter.png" alt="Logo Twitter"></a>
+                <a href="https://www.facebook.com/claudio.fuentes.3994" target="_blank"><img id="logo-social" class="img-fluid" src="../../../assets/facebook.png" alt="Logo Facebook"></a>
+                <a href="https://www.instagram.com/claudiofuentez6" target="_blank"><img id="logo-social" class="img-fluid" src="../../../assets/instagram.png" alt="Logo Instagram"></a>
+            </div>
+          </div>
+      </header>
+  </div>
+  <div class="banner">
+      <app-banner></app-banner>
+  </div>
+</div>

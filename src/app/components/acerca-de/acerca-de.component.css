@@ -1,0 +1,36 @@
+.row{
+  padding: 20px;
+}
+div{
+  background-color: #01D7F1;
+  text-align: center;
+}
+
+#nombre{
+  margin-top: 50px;
+}
+#acerca{
+  margin-left: 20px;
+}
+@media (min-width: 576px){
+  #acerca{
+      text-align: left;
+  }
+}
+@media (max-width: 575px){
+  #acerca{
+      text-align: center;
+  }
+}
+.imgperfil{
+  position: relative;
+  top: -95px;
+  background: none;
+}
+
+#foto-perfil{
+  max-width: 135px;
+  max-height: 135px;
+  border-radius: 100%;
+  box-shadow: 3px 3px 10px #666666 ;
+}

@@ -2,9 +2,18 @@
   padding: 20px;
   background-color: #01D7F1;
 }
+.button{
+  margin-top: 20px;
+}
 @media (max-width: 575px){
   h1{
-      text-align: center;
       margin-bottom: 30px;
   }
+  div{
+      text-align: center;
+  }
+  #descrpcion{
+      text-align: center;
+  }
+
 }

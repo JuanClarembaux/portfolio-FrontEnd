@@ -1,0 +1,34 @@
+div{
+  background-color: #00434C;
+}
+.btn{
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.login{
+  float: right;
+  margin-top: 30px;
+  padding-right: 10px;
+}
+
+@media (min-width: 433px){
+  .logo-social{
+      float: right;
+      margin-top: 30px;
+      padding-right: 10px;
+  }
+}
+@media (max-width: 432px){
+  .logo-social{
+      margin:-10px 0 10px 0;
+      text-align:center;
+  }
+}
+#logoAp{
+  width: 150px;
+}
+#logo-social{
+  width: 32px;
+  padding: 5px;
+  margin-top: 3px;
+}
